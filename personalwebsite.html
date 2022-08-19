@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0130)http://localhost:63342/%E6%A0%87%E9%A2%982.html/%E6%A0%87%E9%A2%982.html?_ijt=ernnkbbpt8gtb3ltih29t9h41h&_ij_reload=RELOAD_ON_SAVE -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <style>
+p.serif{font-family:"Times New Roman",Times,serif;}
+p.sansserif{font-family:Arial,Helvetica,sans-serif;}
+</style><meta name="viewport" content="width=device-width">
+
+    
+    <title>标题</title>
+</head>
+<body style="
+    background-image: url(https://s.cn.bing.net/th?id=OHR.PenzancePool_ZH-CN4493022613_1920x1080.jpg&amp;rf=LaDigue_1920x1080.jpg);;
+">
+<h1 style="
+    text-align: center;
+">欢迎来到我的网站</h1>
+
+<div style="
+    text-align: center;
+">个人简介</div>
+<div style="
+    text-align: center;
+">
+<p>姓名:邓超</p>
+    <p>性别:男</p>
+    <p>籍贯:四川省自贡市</p>
+    <p>学历:高中</p>
+    <p>爱好:英雄联盟</p>
+    <p>梦想:摸鱼</p>
+    <p>QQ/wechat:2510206903/Rocokingdoms</p>
+</div>
+<h2 style="
+    text-align: center;
+">给你点一首歌</h2>
+<video controls="" autoplay="" name="“media”" style="
+    position: absolute;
+    top: 187px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+">
+"&gt;
+  <source src="https://m10.music.126.net/20220819205638/43012da335b34233d5ab60f04a912b1f/yyaac/obj/wonDkMOGw6XDiTHCmMOi/1554789000/ae59/51bf/b835/c5554366206c21a375330d48ed38ffe2.m4a" type="audio/mpeg">
+</video>
+
+<script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + '/jb-server-page?reloadServiceClientId=89');
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script><script>
+(function() {
+  var ws = new WebSocket('ws://' + window.location.host + '/jb-server-page?reloadServiceClientId=12');
+  ws.onmessage = function (msg) {
+      if (msg.data === 'reload') {
+          window.location.reload();
+      }
+      if (msg.data.startsWith('update-css ')) {
+          var messageId = msg.data.substring(11);
+          var links = document.getElementsByTagName('link');
+          for (var i = 0; i < links.length; i++) {
+              var link = links[i];
+              if (link.rel !== 'stylesheet') continue;
+              var clonedLink = link.cloneNode(true);
+              var newHref = link.href.replace(/(&|\?)jbUpdateLinksId=\d+/, "$1jbUpdateLinksId=" + messageId);
+              if (newHref !== link.href) {
+                clonedLink.href = newHref;
+              }
+              else {
+                var indexOfQuest = newHref.indexOf('?');
+                if (indexOfQuest >= 0) {
+                  // to support ?foo#hash 
+                  clonedLink.href = newHref.substring(0, indexOfQuest + 1) + 'jbUpdateLinksId=' + messageId + '&' + 
+                                    newHref.substring(indexOfQuest + 1);
+                }
+                else {
+                  clonedLink.href += '?' + 'jbUpdateLinksId=' + messageId;
+                }
+              }
+              link.replaceWith(clonedLink);
+          }
+      }
+  };
+})();
+</script></body></html>
